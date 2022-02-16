@@ -9,6 +9,7 @@ class Atendimento extends Model
 {
     use HasFactory;
     protected $fillable = [
-        'texto'
+        'texto',
+        "tempo"
     ];
 }
