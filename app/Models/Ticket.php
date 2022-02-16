@@ -9,7 +9,8 @@ class Ticket extends Model
 {
     protected $fillable = [
         'ocorrencia',
-        'assunto'
+        'assunto',
+        'data'
     ];
     protected $table = 'ticket';
     use HasFactory;
